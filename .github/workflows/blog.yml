@@ -1,4 +1,5 @@
-name: Website
+# Based on https://swharden.com/blog/2022-03-20-github-actions-hugo/
+name: Deploy blog
 
 on:
   workflow_dispatch:
@@ -29,5 +30,5 @@ jobs:
       - name: 🔑 Populate Key
         run: echo "${{ secrets.PRIVATE_SSH_KEY }}" > ~/.ssh/id_rsa
       - name: 🚀 Upload
-        run: rsync --archive --stats -e 'ssh -p 18765 -o StrictHostKeyChecking=no' public/ swharden.com@ssh.swharden.com:~/www/swharden.com/public_html/
+        run: rsync --archive --stats -e 'ssh -o StrictHostKeyChecking=no' public/ github-actions@z3r0d4y.dev:/srv/http/blog.z3r0d4y.dev/public
 
