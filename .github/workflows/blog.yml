@@ -29,6 +29,8 @@ jobs:
         run: install -m 600 -D /dev/null ~/.ssh/id_rsa
       - name: 🔑 Populate Key
         run: echo "${{ secrets.PRIVATE_SSH_KEY }}" > ~/.ssh/id_rsa
+      - name: 🔐 Load Host Keys
+        run: echo "${{ secrets.KNOWN_HOSTS }}" > ~/.ssh/known_hosts
       - name: 🚀 Upload
-        run: rsync --archive --stats -e 'ssh -o StrictHostKeyChecking=no' public/ github-actions@z3r0d4y.dev:/srv/http/blog.z3r0d4y.dev/public
+        run: rsync --archive --stats -e 'ssh' public/ github-actions@z3r0d4y.dev:/srv/http/blog.z3r0d4y.dev/public
 
