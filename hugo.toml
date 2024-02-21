@@ -13,6 +13,9 @@ enableGitInfo = true
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
 
+	# For git commit links
+	gitUrl = "https://github.com/klercke/blog.z3r0d4y.dev/commit/"
+
   # Subtitle for home
   homeSubtitle = "d0c_z3r0d4y's blog/documentation site"
 
