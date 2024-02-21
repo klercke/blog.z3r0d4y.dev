@@ -25,6 +25,9 @@ enableGitInfo = true
   # Show a global language switcher in the navigation bar
   enableGlobalLanguageMenu = false
 
+	# Enable theme toggling
+	enableThemeToggle = true
+
   # Metadata mostly used in document's head
   description = "d0cuments: d0c_z3r0d4y's blog"
   keywords = "blog, documentation, homelab, tech, linux"
