@@ -1,4 +1,4 @@
-baseurl      = "blog.z3r0d4y.dev"
+baseurl      = "https://blog.z3r0d4y.dev"
 title        = "d0cuments"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
