@@ -9,3 +9,4 @@ type = "post"
 ## Test Post
 
 This is a test post to test my site & theme
+
