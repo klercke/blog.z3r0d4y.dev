@@ -35,9 +35,39 @@ enableGitInfo = true
   description = "d0cuments: d0c_z3r0d4y's blog"
   keywords = "blog, documentation, homelab, tech, linux"
   images = [""]
+	
+	
+  # Utteranc.es (comments)
+  [params.utterances]
+	  # Comments repo
+    repository = "https://github.com/klercke/blog.z3r0d4y.dev"
+		
+		# Comments issue label
+		label      = "Comments"
+
+  	#   Blog Post <-> Issue mapping. This parameter is optional. Possible values are:
+  	#      - pathname
+  	#      - url
+  	#      - title
+  	#      - og:title
+  	#      - issue number
+  	#      - specific term
+    issueTerm  = "pathname"
+
+	  #   Theme used: possible values are:
+  	#      - github-light
+	  #      - github-dark
+  	#      - preferred-color-scheme
+	  #      - github-dark-orange
+  	#      - icy-dark
+	  #      - dark-blue
+	  #      - photon-dark
+	  #      - boxy-light
+	  #      - gruvbox-dark
+	  #
+    theme      = "preferred-color-scheme"
 
 	# Social Icons
-
 	[[params.social]]
 		name = "email"
 		url = "mailto:site-contact@z3r0d4y.dev"
@@ -61,7 +91,7 @@ enableGitInfo = true
 [languages]
   [languages.en]
     title = "d0cuments"
-    copyright = 'Konnor Klercke'
+    #copyright = 'Konnor Klercke'
 
   [languages.en.params]
     subtitle  = "d0c's blog/documenation platform"
