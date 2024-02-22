@@ -78,6 +78,17 @@ enableGitInfo = true
 
 [menu]
   [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
+    identifier = "posts"
+    name       = "Posts"
     url        = "/posts"
+
+  [[menu.main]]
+    identifier = "tags"
+    name       = "Tags"
+    url        = "/tags"
+
+  [[menu.main]]
+    identifier = "series"
+    name       = "Series"
+    url        = "/series"
+
