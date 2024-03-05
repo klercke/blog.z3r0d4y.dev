@@ -13,8 +13,8 @@ enableGitInfo = true
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
 
-	# For git commit links
-	gitUrl = "https://github.com/klercke/blog.z3r0d4y.dev/commit/"
+  # For git commit links
+  gitUrl = "https://github.com/klercke/blog.z3r0d4y.dev/commit/"
 
   # Subtitle for home
   homeSubtitle = "d0c_z3r0d4y's blog/documentation site"
@@ -28,61 +28,61 @@ enableGitInfo = true
   # Show a global language switcher in the navigation bar
   enableGlobalLanguageMenu = false
 
-	# Enable theme toggling
-	enableThemeToggle = true
+  # Enable theme toggling
+  enableThemeToggle = true
 
   # Metadata mostly used in document's head
   description = "d0cuments: d0c_z3r0d4y's blog"
   keywords = "blog, documentation, homelab, tech, linux"
   images = [""]
-	
-	
+  
+  
   # Utteranc.es (comments)
   [params.utterances]
-	  # Comments repo
+    # Comments repo
     repository = "https://github.com/klercke/blog.z3r0d4y.dev"
-		
-		# Comments issue label
-		label      = "Comments"
+    
+    # Comments issue label
+    label      = "Comment"
 
-  	#   Blog Post <-> Issue mapping. This parameter is optional. Possible values are:
-  	#      - pathname
-  	#      - url
-  	#      - title
-  	#      - og:title
-  	#      - issue number
-  	#      - specific term
+    #   Blog Post <-> Issue mapping. This parameter is optional. Possible values are:
+    #      - pathname
+    #      - url
+    #      - title
+    #      - og:title
+    #      - issue number
+    #      - specific term
     issueTerm  = "pathname"
 
-	  #   Theme used: possible values are:
-  	#      - github-light
-	  #      - github-dark
-  	#      - preferred-color-scheme
-	  #      - github-dark-orange
-  	#      - icy-dark
-	  #      - dark-blue
-	  #      - photon-dark
-	  #      - boxy-light
-	  #      - gruvbox-dark
-	  #
+    #   Theme used: possible values are:
+    #      - github-light
+    #      - github-dark
+    #      - preferred-color-scheme
+    #      - github-dark-orange
+    #      - icy-dark
+    #      - dark-blue
+    #      - photon-dark
+    #      - boxy-light
+    #      - gruvbox-dark
+    #
     theme      = "preferred-color-scheme"
 
-	# Social Icons
-	[[params.social]]
-		name = "email"
-		url = "mailto:site-contact@z3r0d4y.dev"
-	
-	[[params.social]]
-		name = "github"
-		url = "https://github.com/klercke/"
+  # Social Icons
+  [[params.social]]
+    name = "email"
+    url = "mailto:site-contact@z3r0d4y.dev"
+  
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/klercke/"
 
-	[[params.social]]
-		name = "twitter"
-		url = "https://twitter.com/d0c_z3r0d4y/"
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/d0c_z3r0d4y/"
 
-	[[params.social]]
-		name = "gpg"
-		url = "https://z3r0d4y.dev/pgp-key.txt"
+  [[params.social]]
+    name = "gpg"
+    url = "https://z3r0d4y.dev/pgp-key.txt"
 
 [taxonomies]
     tag      = "tags"
