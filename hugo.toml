@@ -35,8 +35,11 @@ enableGitInfo = true
   description = "d0cuments: d0c_z3r0d4y's blog"
   keywords = "blog, documentation, homelab, tech, linux"
   images = [""]
-  
-  
+
+  # Plausible.io analytics
+  plausibleDataDomain = 'blog.z3r0d4y.dev'
+  plausibleScriptSource = 'https://plausible.io/js/script.js'
+
   # Utteranc.es (comments)
   [params.utterances]
     # Comments repo
