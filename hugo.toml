@@ -80,12 +80,16 @@ enableGitInfo = true
     url = "https://github.com/klercke/"
 
   [[params.social]]
-    name = "twitter"
+    name = "X"
     url = "https://twitter.com/d0c_z3r0d4y/"
 
   [[params.social]]
     name = "gpg"
     url = "https://z3r0d4y.dev/pgp-key.txt"
+
+  [[params.social]]
+    name = "rss"
+    url = "https://blog.z3r0d4y.dev/index.xml"
 
 [taxonomies]
     tag      = "tags"
