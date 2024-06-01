@@ -38,7 +38,7 @@ enableGitInfo = true
 
   # Plausible.io analytics
   plausibleDataDomain = 'blog.z3r0d4y.dev'
-  plausibleScriptSource = 'https://plausible.io/js/script.js'
+  plausibleScriptSource = 'https://blog.z3r0d4y.dev/js/script.js'
 
   # Utteranc.es (comments)
   [params.utterances]
