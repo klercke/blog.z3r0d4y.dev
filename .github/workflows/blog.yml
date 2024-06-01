@@ -32,4 +32,4 @@ jobs:
       - name: 🔐 Load Host Keys
         run: echo "${{ secrets.KNOWN_HOSTS }}" > ~/.ssh/known_hosts
       - name: 🚀 Upload
-        run: rsync --archive --delete --stats -e 'ssh' public/ github-actions@${{ secrets.REMOTE_DEST }}:/srv/http/blog.z3r0d4y.dev/public
+        run: rsync --archive --delete --stats -e 'ssh' public/ ${{ secrets.REMOTE_DEST }}:/srv/http/blog.z3r0d4y.dev/public
