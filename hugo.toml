@@ -55,7 +55,7 @@ enableGitInfo = true
     #      - og:title
     #      - issue number
     #      - specific term
-    issueTerm  = "title"
+    issueTerm  = "og:title"
 
     #   Theme used: possible values are:
     #      - github-light
