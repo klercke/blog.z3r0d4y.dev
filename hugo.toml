@@ -43,7 +43,7 @@ enableGitInfo = true
   # Utteranc.es (comments)
   [params.utterances]
     # Comments repo
-    repository = "https://github.com/klercke/blog.z3r0d4y.dev"
+    repository = "klercke/blog.z3r0d4y.dev"
     
     # Comments issue label
     label      = "Comment"
