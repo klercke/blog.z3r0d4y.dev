@@ -2,6 +2,8 @@
 title: "Blog as Code: Building an Open, Self-Hosted Blog"
 date: 2024-06-02T19:51:26-0400
 toc: true
+draft: false
+description: "An introduction to my blog, an explanation of why I chose to start blogging, and some details on how I manage the blog and its infrastructure."
 series:
   - Blog as Code
 tags:
