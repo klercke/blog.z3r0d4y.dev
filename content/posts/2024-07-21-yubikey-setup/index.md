@@ -160,7 +160,7 @@ I now believe that regular key rotations promote good key hygiene.
 In my professional life, I generally make most keys last 1 year since there is usually an entire team of people that can keep up on key rotation reminders.
 Since I will be using this key for myself, I chose to go with a roughly 2 year expiration time, which is conveniently also what the guide recommends.
 
-I'm setting the key to expire on July 1st 2026, just over 2 years from when I actually generated it:
+I'm setting the key to expire on June 1st 2026, just under 2 years from when I actually generated it:
 
 ```console
 EXPIRATION="2026-06-01"
