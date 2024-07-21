@@ -1,7 +1,7 @@
 ---
 title: "Securing My Digital Identity With YubiKeys and GnuPG"
 date: 2024-07-21T16:22:05-0400
-draft: true
+draft: false
 toc: true
 description: "Detailing how I use the GPG key stored on my YubiKey to improve my personal security posture"
 tags:
