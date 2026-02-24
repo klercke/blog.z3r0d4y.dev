@@ -77,10 +77,14 @@ enableGitInfo = true
   [[params.social]]
     name = "github"
     url = "https://github.com/klercke/"
+  
+  [[params.social]]
+    name = "gitlab"
+    url = "https://gitlab.com/klercke/"
 
   [[params.social]]
-    name = "X"
-    url = "https://twitter.com/d0c_z3r0d4y/"
+    name = "bluesky"
+    url = "https://bsky.app/profile/d0c.z3r0d4y.dev"
 
   [[params.social]]
     name = "gpg"
