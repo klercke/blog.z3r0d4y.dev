@@ -2,7 +2,6 @@ baseurl      = "https://blog.z3r0d4y.dev"
 title        = "d0cuments"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
-paginate     = 10
 
 # Misc. config
 enableGitInfo = true
@@ -129,3 +128,5 @@ enableGitInfo = true
     name       = "Series"
     url        = "/series"
 
+[pagination]
+  pagerSize = 10
